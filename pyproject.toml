@@ -4,4 +4,17 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "bs4>=0.0.2",
+    "ffmpeg>=1.4",
+    "ffprobe>=0.5",
+    "ipykernel>=6.29.5",
+    "langchain>=0.3.19",
+    "langchain-community>=0.3.18",
+    "openai>=1.64.0",
+    "pandas>=2.2.3",
+    "pydub>=0.25.1",
+    "pypdf>=5.3.0",
+    "python-dotenv>=1.0.1",
+    "yt-dlp>=2025.2.19",
+]
